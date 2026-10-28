@@ -24,6 +24,10 @@ const pressStart2P = Jersey_20({
 export const metadata: Metadata = {
   title: "HessCar",
   description: "Calcule le coût des trajets entre potes",
+  icons: {
+    icon: "/icon.png",
+    apple: "/icon.png"
+  }
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
