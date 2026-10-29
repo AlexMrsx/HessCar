@@ -36,6 +36,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="fr"
       className={cn("h-full", "antialiased", geistSans.variable, geistMono.variable, pressStart2P.variable, "font-sans", inter.variable)}
     >
+    <head>
+      <meta name="google-site-verification" content="gsp-lHLpaW_jTcCECtPyMGqbeY3_lQoALWaxotmmqtg" />
+    </head>
       <body className="h-full  bg-primary ">{children}</body>
     </html>
   );
