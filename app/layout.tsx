@@ -27,7 +27,15 @@ export const metadata: Metadata = {
   icons: {
     icon: "/icon.png",
     apple: "/icon.png"
-  }
+  },
+  openGraph: {
+    title: "HessCar — Calcule le coût des trajets entre potes",
+    description:
+        "Calcule le coût des trajets entre potes.",
+    url: "https://hesscar.vercel.app",
+    siteName: "HessCar",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
